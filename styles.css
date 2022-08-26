@@ -11,6 +11,9 @@ body {
     font-size: 20px;
 }
 
+
+/***** HEADER *****/
+
 h1 {
    color: #ffffff;
    font-family: 'Russo One', sans-serif;
@@ -39,11 +42,29 @@ h2 {
     height: auto;
 }
 
+
+/***** MAIN *****/
+
 p {
     color: #ffffff;
     padding-left: 50px;
     padding-right: 50px;
 }
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.flex-container__responsive2 {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+
+/***** FOOTER *****/
 
 footer {
     background: rgb(136, 207, 248);
